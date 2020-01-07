@@ -1,0 +1,43 @@
+[
+  {
+    "id": 0,
+    "codigo": "001",
+    "descripcion": "05",
+    "capacidad": "",
+    "obs": "",
+    "novigente": false
+  },
+  {
+    "id": 1,
+    "codigo": "002",
+    "descripcion": "07",
+    "capacidad": "",
+    "obs": "",
+    "novigente": false
+  },
+  {
+    "id": 2,
+    "codigo": "003",
+    "descripcion": "08",
+    "capacidad": "",
+    "obs": "",
+    "novigente": false
+  },
+  {
+    "id": 3,
+    "codigo": "004",
+    "descripcion": "A+",
+    "capacidad": "",
+    "obs": "",
+    "novigente": false
+  },
+  {
+    "id": 4,
+    "codigo": "005",
+    "descripcion": "A",
+    "capacidad": "",
+    "obs": "",
+    "novigente": false
+  }
+]
+

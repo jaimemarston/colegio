@@ -1,0 +1,610 @@
+[
+    {
+        "id": 7,
+        "codigo": "10846512",
+        "nombre": "LAUDEDITH GUIRALIN GONZALES GARMENDIA",
+        "telefono1": "936372294",
+        "direccion": "CERCADO DE LIMA",
+        "movpersonal": [
+            {
+                "id": 7,
+                "codigo": "7",
+                "codemp": "10846512",
+                "nombre": "LAUDEDITH GUIRALIN GONZALES GARMENDIA",
+                "cc": null,
+                "descc": "LLAVERO TIRA",
+                "fechaini": "APROB 1A 2010",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "25.00",
+                "master": 7
+            },
+            {
+                "id": 6,
+                "codigo": "7",
+                "codemp": "10846512",
+                "nombre": "LAUDEDITH GUIRALIN GONZALES GARMENDIA",
+                "cc": null,
+                "descc": "TIRA SUMMER",
+                "fechaini": "APROB 2A 2011",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "0.30",
+                "master": 7
+            },
+            {
+                "id": 5,
+                "codigo": "7",
+                "codemp": "10846512",
+                "nombre": "LAUDEDITH GUIRALIN GONZALES GARMENDIA",
+                "cc": null,
+                "descc": "TIRA LOGO",
+                "fechaini": "2018-07-23",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "0.80",
+                "master": 7
+            },
+            {
+                "id": 10,
+                "codigo": "7",
+                "codemp": "10846512",
+                "nombre": "LAUDEDITH GUIRALIN GONZALES GARMENDIA",
+                "cc": null,
+                "descc": "LLAVERO EMBOLSADO",
+                "fechaini": "2018-07-23",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "8.00",
+                "master": 7
+            }
+        ],
+        "ctacte": [
+            {
+                "id": 1,
+                "codigo": "7",
+                "codemp": "10846512",
+                "nombre": "LAUDEDITH GUIRALIN GONZALES GARMENDIA",
+                "codctacte": "INGRESO",
+                "desctacte": "ADELANTO",
+                "cc": null,
+                "descc": null,
+                "fechaini": null,
+                "fechafin": null,
+                "fechagen": null,
+                "turno": null,
+                "importe": null,
+                "master": 7
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "codigo": "13755905",
+        "nombre": "RUTHMARY",
+        "telefono1": null,
+        "direccion": "CERCADO DE LIMA",
+        "movpersonal": [
+            {
+                "id": 11,
+                "codigo": "21",
+                "codemp": "13755905",
+                "nombre": "RUTHMARY",
+                "cc": null,
+                "descc": "TIRA LOGO",
+                "fechaini": "2018-01-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "0.80",
+                "master": 21
+            },
+            {
+                "id": 12,
+                "codigo": "21",
+                "codemp": "13755905",
+                "nombre": "RUTHMARY",
+                "cc": null,
+                "descc": "TIRA SUMMER",
+                "fechaini": "2018-01-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "0.30",
+                "master": 21
+            },
+            {
+                "id": 13,
+                "codigo": "21",
+                "codemp": "13755905",
+                "nombre": "RUTHMARY",
+                "cc": null,
+                "descc": "LLAVERO TIRA",
+                "fechaini": "2018-01-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "25.00",
+                "master": 21
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 20,
+        "codigo": "20393101",
+        "nombre": "RAIBER RAFAEL FANEITEZ GUERE",
+        "telefono1": null,
+        "direccion": "CERCADO DE LIMA",
+        "movpersonal": [
+            {
+                "id": 14,
+                "codigo": "20",
+                "codemp": "20393101",
+                "nombre": "RAIBER RAFAEL FANEITEZ GUERE",
+                "cc": null,
+                "descc": "PRODUCCION",
+                "fechaini": "2019-08-12",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "40.00",
+                "master": 20
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 5,
+        "codigo": "20473412",
+        "nombre": "LAURA BEATRIZ GONZALES GONZALES",
+        "telefono1": "960220291",
+        "direccion": "CERCADO DE LIMA",
+        "movpersonal": [
+            {
+                "id": 15,
+                "codigo": "5",
+                "codemp": "20473412",
+                "nombre": "LAURA BEATRIZ GONZALES GONZALES",
+                "cc": null,
+                "descc": "TIRA LOGO",
+                "fechaini": "2019-07-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "0.80",
+                "master": 5
+            },
+            {
+                "id": 16,
+                "codigo": "5",
+                "codemp": "20473412",
+                "nombre": "LAURA BEATRIZ GONZALES GONZALES",
+                "cc": null,
+                "descc": "TIRA SUMMER",
+                "fechaini": "2019-07-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "0.30",
+                "master": 5
+            },
+            {
+                "id": 17,
+                "codigo": "5",
+                "codemp": "20473412",
+                "nombre": "LAURA BEATRIZ GONZALES GONZALES",
+                "cc": null,
+                "descc": "LLAVERO TIRA",
+                "fechaini": "2019-07-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "25.00",
+                "master": 5
+            },
+            {
+                "id": 18,
+                "codigo": "5",
+                "codemp": "20473412",
+                "nombre": "LAURA BEATRIZ GONZALES GONZALES",
+                "cc": null,
+                "descc": "LLAVERO EMBOLSADO",
+                "fechaini": "2019-07-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "8.00",
+                "master": 5
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 11,
+        "codigo": "24386197",
+        "nombre": "DUILFRAN JOSE LOPEZ DURAN",
+        "telefono1": "946483197",
+        "direccion": "CERCADO DE LIMA",
+        "movpersonal": [
+            {
+                "id": 19,
+                "codigo": "11",
+                "codemp": "24386197",
+                "nombre": "DUILFRAN JOSE LOPEZ DURAN",
+                "cc": null,
+                "descc": "PRODUCCION",
+                "fechaini": "2018-12-14",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "280.00",
+                "master": 11
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 17,
+        "codigo": "40579799",
+        "nombre": "OSCAR ENRIQUE ASENJO FLORES",
+        "telefono1": "975433557",
+        "direccion": "MZ C LT 19 SECTOR 1 GRUPO 18 VILLA EL SALVADOR",
+        "movpersonal": [
+            {
+                "id": 9,
+                "codigo": "17",
+                "codemp": "40579799",
+                "nombre": "OSCAR ENRIQUE ASENJO FLORES",
+                "cc": null,
+                "descc": "PRODUCCION",
+                "fechaini": "2008-06-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "80.00",
+                "master": 17
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 8,
+        "codigo": "41492002",
+        "nombre": "JACQUELINE ELIZABETH BRICEÑO CAZAL",
+        "telefono1": "017254555",
+        "direccion": "STA LUZMILA MZ R LT 38 COMAS",
+        "movpersonal": [
+            {
+                "id": 20,
+                "codigo": "8",
+                "codemp": "41492002",
+                "nombre": "JACQUELINE ELIZABETH BRICEÑO CAZAL",
+                "cc": null,
+                "descc": "TIRA LOGO",
+                "fechaini": "2015-11-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "0.80",
+                "master": 8
+            },
+            {
+                "id": 21,
+                "codigo": "8",
+                "codemp": "41492002",
+                "nombre": "JACQUELINE ELIZABETH BRICEÑO CAZAL",
+                "cc": null,
+                "descc": "TIRA SUMMER",
+                "fechaini": "2015-11-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "0.30",
+                "master": 8
+            },
+            {
+                "id": 22,
+                "codigo": "8",
+                "codemp": "41492002",
+                "nombre": "JACQUELINE ELIZABETH BRICEÑO CAZAL",
+                "cc": null,
+                "descc": "LLAVERO TIRA",
+                "fechaini": "2015-11-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "25.00",
+                "master": 8
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 13,
+        "codigo": "41962749",
+        "nombre": "JOSE GUILLERMO QUESQUEN",
+        "telefono1": "924844892",
+        "direccion": "AV CARABAYLLO MZ Q LT 36 EL PARRAL COMAS",
+        "movpersonal": [
+            {
+                "id": 3,
+                "codigo": "13",
+                "codemp": "41962749",
+                "nombre": "JOSE GUILLERMO QUESQUEN",
+                "cc": null,
+                "descc": "PRODUCCION",
+                "fechaini": "2008-10-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "72.73",
+                "master": 13
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 10,
+        "codigo": "46638357",
+        "nombre": "ADA ELISA AMANCIO UBALDO",
+        "telefono1": "979433865",
+        "direccion": "PARCELA C ASENT. H. JOSE M. ARGUEDAS PACHACUTEC MZ H LT 12 VENTANILLA",
+        "movpersonal": [],
+        "ctacte": []
+    },
+    {
+        "id": 15,
+        "codigo": "46732925",
+        "nombre": "RUPERTO CHERO SANDOVAL",
+        "telefono1": "925780796",
+        "direccion": "CALLE CINCO LOTE 19 CATACAOS PIURA PIURA",
+        "movpersonal": [
+            {
+                "id": 8,
+                "codigo": "15",
+                "codemp": "46732925",
+                "nombre": "RUPERTO CHERO SANDOVAL",
+                "cc": null,
+                "descc": "PRODUCCION",
+                "fechaini": "2018-08-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "53.33",
+                "master": 15
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 9,
+        "codigo": "47352422",
+        "nombre": "MILAGROS IVETTE FLORES CRUZ",
+        "telefono1": "917065881",
+        "direccion": "CALLE PIRA 463 URB. PARQUE NARANJAL LOS OLIVOS",
+        "movpersonal": [
+            {
+                "id": 23,
+                "codigo": "9",
+                "codemp": "47352422",
+                "nombre": "MILAGROS IVETTE FLORES CRUZ",
+                "cc": null,
+                "descc": "PRODUCCION",
+                "fechaini": "2018-07-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "46.67",
+                "master": 9
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 19,
+        "codigo": "48256509",
+        "nombre": "JEANS WILLINGTON CRUZ ROMAN",
+        "telefono1": null,
+        "direccion": "ASENT JUAN PABLO MZ 05 LOTE 26 LOS OLIVOS",
+        "movpersonal": [],
+        "ctacte": []
+    },
+    {
+        "id": 14,
+        "codigo": "71099414",
+        "nombre": "EISER BAUTISTA HUAMAN",
+        "telefono1": "955039709",
+        "direccion": "JR. PESCADORES S/N FLORIDA BONGARA AMAZONAS",
+        "movpersonal": [
+            {
+                "id": 34,
+                "codigo": "14",
+                "codemp": "71099414",
+                "nombre": "EISER BAUTISTA HUAMAN",
+                "cc": null,
+                "descc": "PRODUCCION",
+                "fechaini": "2014-08-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "56.66",
+                "master": 14
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 18,
+        "codigo": "72284876",
+        "nombre": "WILSON DEINER DOMINGUEZ LOPEZ",
+        "telefono1": "929076574",
+        "direccion": "CASERIO LAS PIRCAS FRIAS AYABACA PIURA",
+        "movpersonal": [
+            {
+                "id": 33,
+                "codigo": "18",
+                "codemp": "72284876",
+                "nombre": "WILSON DEINER DOMINGUEZ LOPEZ",
+                "cc": null,
+                "descc": "PRODUCCION",
+                "fechaini": "2018-12-17",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "43.33",
+                "master": 18
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 2,
+        "codigo": "72426826",
+        "nombre": "ESDWIN MANUEL CORDOVA LOPEZ",
+        "telefono1": "928841153",
+        "direccion": "CASERIO FLORECER FRIAS AYABACA PIURA",
+        "movpersonal": [
+            {
+                "id": 32,
+                "codigo": "2",
+                "codemp": "72426826",
+                "nombre": "ESDWIN MANUEL CORDOVA LOPEZ",
+                "cc": null,
+                "descc": "PRODUCCION",
+                "fechaini": "2019-07-15",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "41.66",
+                "master": 2
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 4,
+        "codigo": "74381842",
+        "nombre": "LIZBETH DAMIAN ALCANTARA",
+        "telefono1": "923151266",
+        "direccion": "ASOC. GRAMALES MZ D LT 01-A",
+        "movpersonal": [
+            {
+                "id": 29,
+                "codigo": "4",
+                "codemp": "74381842",
+                "nombre": "LIZBETH DAMIAN ALCANTARA",
+                "cc": null,
+                "descc": "TIRA LOGO",
+                "fechaini": "2018-01-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "0.80",
+                "master": 4
+            },
+            {
+                "id": 30,
+                "codigo": "4",
+                "codemp": "74381842",
+                "nombre": "LIZBETH DAMIAN ALCANTARA",
+                "cc": null,
+                "descc": "TIRA SUMMER",
+                "fechaini": "2018-01-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "0.30",
+                "master": 4
+            },
+            {
+                "id": 31,
+                "codigo": "4",
+                "codemp": "74381842",
+                "nombre": "LIZBETH DAMIAN ALCANTARA",
+                "cc": null,
+                "descc": "LLAVERO TIRA",
+                "fechaini": "2018-01-01",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "25.00",
+                "master": 4
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 12,
+        "codigo": "74542702",
+        "nombre": "NEULER PINTADO LOPEZ",
+        "telefono1": "948163173",
+        "direccion": "CASERIO LAS PIRCAS FRIAS AYABACA PIURA",
+        "movpersonal": [
+            {
+                "id": 28,
+                "codigo": "12",
+                "codemp": "74542702",
+                "nombre": "NEULER PINTADO LOPEZ",
+                "cc": null,
+                "descc": "PRODUCCION",
+                "fechaini": "2018-12-03",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "40.00",
+                "master": 12
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 16,
+        "codigo": "75939298",
+        "nombre": "DIGMAR OMAR PINTADO AMBULAY",
+        "telefono1": null,
+        "direccion": "CASERIO LAS PIRCAS FRIAS AYABACA PIURA",
+        "movpersonal": [
+            {
+                "id": 27,
+                "codigo": "16",
+                "codemp": "75939298",
+                "nombre": "DIGMAR OMAR PINTADO AMBULAY",
+                "cc": null,
+                "descc": "PRODUCCION",
+                "fechaini": "2017-06-02",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "45.83",
+                "master": 16
+            }
+        ],
+        "ctacte": []
+    },
+    {
+        "id": 6,
+        "codigo": "92423349",
+        "nombre": "LAURYSMAR ADRIANA GONZALEZ GONZALEZ",
+        "telefono1": "926518983",
+        "direccion": "CERCADO DE LIMA",
+        "movpersonal": [
+            {
+                "id": 24,
+                "codigo": "6",
+                "codemp": "92423349",
+                "nombre": "LAURYSMAR ADRIANA GONZALEZ GONZALEZ",
+                "cc": null,
+                "descc": "TIRA LOGO",
+                "fechaini": "2018-09-22",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "0.80",
+                "master": 6
+            },
+            {
+                "id": 25,
+                "codigo": "6",
+                "codemp": "92423349",
+                "nombre": "LAURYSMAR ADRIANA GONZALEZ GONZALEZ",
+                "cc": null,
+                "descc": "TIRA SUMMER",
+                "fechaini": "2018-09-22",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "0.30",
+                "master": 6
+            },
+            {
+                "id": 26,
+                "codigo": "6",
+                "codemp": "92423349",
+                "nombre": "LAURYSMAR ADRIANA GONZALEZ GONZALEZ",
+                "cc": null,
+                "descc": "LLAVERO TIRA",
+                "fechaini": "2018-09-22",
+                "fechafin": null,
+                "turno": "DIA",
+                "importe": "25.00",
+                "master": 6
+            }
+        ],
+        "ctacte": []
+    }
+]

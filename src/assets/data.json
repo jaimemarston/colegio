@@ -1,0 +1,43 @@
+[
+  {
+    "id": 0,
+    "codigo": "cc863a21-3d93-4f92-a1ce-ee74cd39fc7b",
+    "ruc": " (995) 437-3750",
+    "nombre": "Freda Mullins",
+    "telefono1": "+1 (991) 518-2404",
+    "correo": "fredamullins@paprikut.com"
+  },
+  {
+    "id": 1,
+    "codigo": "ae9f43b3-a92a-430d-8126-f9d519ffc61d",
+    "ruc": " (996) 444-3132",
+    "nombre": "Richmond Riggs",
+    "telefono1": "+1 (812) 505-3635",
+    "correo": "richmondriggs@paprikut.com"
+  },
+  {
+    "id": 2,
+    "codigo": "fa659e03-8436-487c-be9d-8624dabbcbd7",
+    "ruc": " (835) 514-3368",
+    "nombre": "Antonia Parker",
+    "telefono1": "+1 (952) 494-3191",
+    "correo": "antoniaparker@paprikut.com"
+  },
+  {
+    "id": 3,
+    "codigo": "33171634-0bfd-4503-9d31-b71b7ae07e9a",
+    "ruc": " (833) 558-2831",
+    "nombre": "Moreno Lyons",
+    "telefono1": "+1 (904) 593-3569",
+    "correo": "morenolyons@paprikut.com"
+  },
+  {
+    "id": 4,
+    "codigo": "61a5e587-b350-4697-99be-2b67b3914dce",
+    "ruc": " (975) 429-3246",
+    "nombre": "Kristie Blanchard",
+    "telefono1": "+1 (828) 470-2695",
+    "correo": "kristieblanchard@paprikut.com"
+  }
+]
+

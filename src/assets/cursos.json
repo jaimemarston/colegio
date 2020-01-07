@@ -1,0 +1,43 @@
+[
+  {
+    "id": 0,
+    "codigo": "001",
+    "descripcion": "Matematica",
+    "capacidad": "00 - 20",
+    "obs": "Valido hasta el 2021",
+    "novigente": false
+  },
+  {
+    "id": 1,
+    "codigo": "002",
+    "descripcion": "Ciencias",
+    "capacidad": "A+ C-",
+    "obs": "",
+    "novigente": false
+  },
+  {
+    "id": 2,
+    "codigo": "003",
+    "descripcion": "Historia del Peru",
+    "capacidad": "1493-2018",
+    "obs": "",
+    "novigente": false
+  },
+  {
+    "id": 3,
+    "codigo": "004",
+    "descripcion": "Ingles",
+    "capacidad": "Britanico",
+    "obs": "",
+    "novigente": false
+  },
+  {
+    "id": 4,
+    "codigo": "005",
+    "descripcion": "Proyectos de Educación para el Trabajo",
+    "capacidad": "25",
+    "obs": "",
+    "novigente": false
+  }
+]
+

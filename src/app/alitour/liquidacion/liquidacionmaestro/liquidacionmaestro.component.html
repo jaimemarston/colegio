@@ -1,0 +1,105 @@
+<div id="clientes" fxLayout="column">
+    <toolbar-table [title]="'Maestro'" [urlPrint]="'generate_pdf'" (inputText)="applyFilter($event)" [hidden]="edit"
+                   (add)="addRecord()"
+                   (delete)="deleteAllSelecteds()"></toolbar-table>
+    <div fxFlex [hidden]="edit">
+        <mat-table #table [dataSource]="dataSource">
+            <ng-container  matColumnDef="select">
+                <mat-header-cell fxFlex="50px" *matHeaderCellDef>
+                    <mat-checkbox (change)="$event ? masterToggle() : null"
+                                  [checked]="selection.hasValue() && isAllSelected()"
+                                  [indeterminate]="selection.hasValue() && !isAllSelected()">
+                    </mat-checkbox>
+                </mat-header-cell>
+                <mat-cell fxFlex="50px" *matCellDef="let row">
+                    <mat-checkbox (click)="$event.stopPropagation()" (change)="$event ? selection.toggle(row) : null"
+                                  [checked]="selection.isSelected(row)">
+                    </mat-checkbox>
+                </mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="fechaini">
+                <mat-header-cell *matHeaderCellDef> FECHA INI</mat-header-cell>
+                <mat-cell *matCellDef="let element"> {{element.fechaini}}</mat-cell>
+            </ng-container>
+
+              <ng-container matColumnDef="horaini">
+                <mat-header-cell fxFlex="70px" *matHeaderCellDef> HORA INI</mat-header-cell>
+                <mat-cell fxFlex="70px" *matCellDef="let element"> {{element.horaini}}</mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="fechafin">
+                <mat-header-cell  *matHeaderCellDef> FECHA FIN</mat-header-cell>
+                <mat-cell  *matCellDef="let element"> {{element.fechafin}}</mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="horafin">
+                <mat-header-cell *matHeaderCellDef> HORA FIN</mat-header-cell>
+                <mat-cell *matCellDef="let element"> {{element.horafin}}</mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="descripcion">
+                <mat-header-cell *matHeaderCellDef> DESCRIPCIÓN</mat-header-cell>
+                <mat-cell *matCellDef="let element"> {{element.descripcion}}</mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="desunimed">
+                <mat-header-cell *matHeaderCellDef> TRANSPORTE</mat-header-cell>
+                <mat-cell *matCellDef="let element"> {{element.desunimed}}</mat-cell>
+            </ng-container>
+  
+            <ng-container matColumnDef="cantidad">
+                <mat-header-cell *matHeaderCellDef> PAX</mat-header-cell>
+                <mat-cell *matCellDef="let element"> {{element.cantidad}}</mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="imptotal">
+                <mat-header-cell *matHeaderCellDef> IMPORTE TOTAL</mat-header-cell>
+                <mat-cell *matCellDef="let element"> {{element.imptotal}}</mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="estado">
+                <mat-header-cell *matHeaderCellDef> ESTADO</mat-header-cell>
+                <mat-cell *matCellDef="let element">
+                    <mat-chip-list>
+                        <mat-chip *ngIf="element.estado === 0" class="green-50"  selected>Cotizado</mat-chip>
+                        <mat-chip *ngIf="element.estado === 1" class="green-300" selected>Confirmado</mat-chip>
+                        <mat-chip *ngIf="element.estado === 2" class="green-100" selected>Programado</mat-chip>
+                        <mat-chip *ngIf="element.estado === 3" class="cyan-100"  selected>Atendido</mat-chip>
+                        <mat-chip *ngIf="element.estado === 4" class="red-100"   selected>Anulado</mat-chip>
+                    </mat-chip-list>
+                </mat-cell>
+            </ng-container>
+
+            <!--<ng-container matColumnDef="codigo">-->
+                    <!--<mat-header-cell *matHeaderCellDef> codigo</mat-header-cell>-->
+                    <!--<mat-cell *matCellDef="let element"> {{element.codigo}}</mat-cell>-->
+            <!--</ng-container>-->
+
+            <ng-container matColumnDef="options">
+                <mat-header-cell *matHeaderCellDef> Options</mat-header-cell>
+                <mat-cell *matCellDef="let row">
+                    
+                </mat-cell>
+            </ng-container>
+            <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+
+            <mat-row
+                (click)="viewRecorddetail(row)"
+                class="element-row"
+                [ngClass]="{ 'highlight': row.id === liquidacionSelected?.id }"
+                *matRowDef="let row; columns: displayedColumns;">
+            </mat-row>
+
+        </mat-table>
+    </div>
+    <div fxFlex [hidden]="edit">
+        <mat-paginator [showFirstLastButtons]="true" #paginator [length]="100" [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 100]">
+        </mat-paginator>
+    </div>
+    <mat-divider></mat-divider>
+    <div fxFlex [hidden]="!edit">
+        <app-editliquidacion [id]="selectedId" (back)="showDataTable()"
+                            (update)="updateDataTable($event)"></app-editliquidacion>
+    </div>
+</div>
